@@ -1,9 +1,4 @@
-input_lines = input()
-k, s, t=input_lines.split(' ')
-
-k=int(k)
-s=int(s)
-t=int(t)
+k, s, t = map(int, input().split(' '))
 
 def level_k(k):
     if k <=1:
